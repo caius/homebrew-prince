@@ -2,8 +2,8 @@ require "formula"
 
 class Prince < Formula
   homepage "http://www.princexml.com/"
-  url "http://www.princexml.com/download/prince-10r7-macosx.tar.gz"
-  sha256 "84daae4bb3365887429b762a18cb213b30ef26c4dea14fbe809a277f9d04f118"
+  url "http://www.princexml.com/download/prince-11-macosx.tar.gz"
+  sha256 "dac005d49c594b90b0933ffac0601997cee8c64c3e6190073dc1d024eb439553"
 
   def install
     ENV["prefix"] = prefix
