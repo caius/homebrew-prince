@@ -5,14 +5,11 @@ class Prince < Formula
   url "http://www.princexml.com/download/prince-11-macosx.tar.gz"
   sha256 "dac005d49c594b90b0933ffac0601997cee8c64c3e6190073dc1d024eb439553"
 
+  patch :DATA
+
   def install
     ENV["prefix"] = prefix
     system "./install.sh"
-  end
-
-  def patches
-    # Drop the user input since we're providing the prefix
-    DATA
   end
 end
 
