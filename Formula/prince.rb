@@ -2,8 +2,8 @@ require "formula"
 
 class Prince < Formula
   homepage "http://www.princexml.com/"
-  url "https://www.princexml.com/download/prince-12.4-macosx.tar.gz"
-  sha256 "7f8abe72b88468c36f41754f9fd7f17821cef0c7f8d7e83f861b39b8bf393597"
+  url "https://www.princexml.com/download/prince-12.5-macosx.tar.gz"
+  sha256 "d7940c2f60b1e9657db1deb1144b2496cc34c728f650c36b24d6885b964e9aed"
 
   patch :DATA
 
